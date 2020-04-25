@@ -4,7 +4,8 @@
 extern char *p;
 extern int size;
 
-void allocate(int n); //function to allocate memory for the global array p, n number of bytes long.
+void allocate(int n); //function to allocate memory   
+//for the global array p, n number of bytes long.
 
 void* mymalloc(int size); //function to allocate a block of size "size" from p
 
