@@ -3,7 +3,7 @@ Memory Manager mimics the malloc function in C language
 1.)
 The Allocation Policy is Worst Fit . 
 2.)
-Allocation (using Worst fit):-
+Allocation (using Worst fit):- change
     The basic logic of my implementation for the Worst Fit Policy was to create a pointer of the type "Book" ie. Bookkeeping structure
     called maxPointer and then we traverse the Bookkeeping linked list 
     and  keep updating the max = 0 based on the size .After using a while loop for this my maxPointer points to the Worst fitting block
